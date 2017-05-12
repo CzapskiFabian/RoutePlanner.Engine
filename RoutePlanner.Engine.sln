@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoutePlanner.Integration", "RoutePlanner.Engine\RoutePlanner.Integration.csproj", "{CC3A296A-3CE9-4D6C-AFFA-63F187DAD7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutePlanner.JobSetManagement", "RoutePlanner.JobSetManagement\RoutePlanner.JobSetManagement.csproj", "{BEFBF64D-9627-4BAF-8B02-256EFDCEDAEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutePlanner.JobBoardManagement", "RoutePlanner.JobBoardManagement\RoutePlanner.JobBoardManagement.csproj", "{7396DDA0-77A4-464E-B0AA-9D56405F41C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutePlanner.EngineerManagement", "RoutePlanner.EngineerManagement\RoutePlanner.EngineerManagement.csproj", "{E8421EB6-6A72-4203-9A78-2448BB9A741C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutePlanner.AllocatorManagement", "RoutePlanner.AllocatorManagement\RoutePlanner.AllocatorManagement.csproj", "{1A0EA03F-AE93-411D-829C-4A44078CCAAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutePlanner.AllocationEngine", "RoutePlanner.AllocationEngine\RoutePlanner.AllocationEngine.csproj", "{CC0085F2-7793-437F-BAD2-5293D8B478AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC3A296A-3CE9-4D6C-AFFA-63F187DAD7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3A296A-3CE9-4D6C-AFFA-63F187DAD7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3A296A-3CE9-4D6C-AFFA-63F187DAD7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3A296A-3CE9-4D6C-AFFA-63F187DAD7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFBF64D-9627-4BAF-8B02-256EFDCEDAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFBF64D-9627-4BAF-8B02-256EFDCEDAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFBF64D-9627-4BAF-8B02-256EFDCEDAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFBF64D-9627-4BAF-8B02-256EFDCEDAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7396DDA0-77A4-464E-B0AA-9D56405F41C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7396DDA0-77A4-464E-B0AA-9D56405F41C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7396DDA0-77A4-464E-B0AA-9D56405F41C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7396DDA0-77A4-464E-B0AA-9D56405F41C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8421EB6-6A72-4203-9A78-2448BB9A741C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8421EB6-6A72-4203-9A78-2448BB9A741C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8421EB6-6A72-4203-9A78-2448BB9A741C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8421EB6-6A72-4203-9A78-2448BB9A741C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0EA03F-AE93-411D-829C-4A44078CCAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0EA03F-AE93-411D-829C-4A44078CCAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0EA03F-AE93-411D-829C-4A44078CCAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0EA03F-AE93-411D-829C-4A44078CCAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0085F2-7793-437F-BAD2-5293D8B478AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0085F2-7793-437F-BAD2-5293D8B478AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0085F2-7793-437F-BAD2-5293D8B478AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0085F2-7793-437F-BAD2-5293D8B478AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
